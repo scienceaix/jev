@@ -550,7 +550,7 @@ See [LICENSE](LICENSE).
 ```python
 @misc{xu2026jev,
     title={The Awesome Jev Open-Source Ecosystem: Projects, Models, Integrations, and Developer Momentum},
-    author={Renjun Xu},
+    author={RSI Learning Intelligence},
     year={2026},
     howpublished = {\url{https://github.com/scienceaix/jev}},
     publisher    = {GitHub}
