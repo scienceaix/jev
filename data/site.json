@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "title": "Awesome Jev",
+    "subtitle": "A field guide to typed decision systems",
+    "snapshot": "28 Sep 2026",
+    "window": "15–28 Sep 2026",
+    "report": "jev_deep-research-report.md",
+    "siteUrl": "docs/index.html"
+  },
+  "thesis": {
+    "eyebrow": "THE JEWEL IN THE LOOP",
+    "headline": "State in. Typed decisions out.",
+    "body": "Jev is trending because it turns high-frequency bounded choices into a typed probability surface. The ecosystem around that primitive is young, fast, and already splitting into applications, infrastructure, and open research.",
+    "formula": ["state", "typed questions", "probabilities", "deterministic action"]
+  },
+  "metrics": [
+    {"value": "14 days", "label": "public launch to snapshot", "tone": "coral"},
+    {"value": "20.8k", "label": "stars on the breakout app", "tone": "cyan"},
+    {"value": "719", "label": "stars on local runtime Ollaya", "tone": "amber"},
+    {"value": "3", "label": "open research strategies", "tone": "paper"}
+  ],
+  "roles": [
+    {"id": "all", "label": "All signals", "description": "Every curated project"},
+    {"id": "official", "label": "Official", "description": "SDKs, skills, adapters"},
+    {"id": "application", "label": "Applications", "description": "Agents and tools"},
+    {"id": "infrastructure", "label": "Infrastructure", "description": "Local and protocol layers"},
+    {"id": "research", "label": "Research", "description": "Open models and replicas"},
+    {"id": "curation", "label": "Curation", "description": "Indexes and discovery"}
+  ],
+  "maturity": ["All maturity", "Onboarding", "MVP", "Beta", "Emerging", "Experimental", "Educational", "Research-grade", "Early", "Active"],
+  "access": ["All access", "Hosted Jev", "Local open", "Hosted / adapter", "Index"],
+  "timeline": [
+    {"date": "15 Sep", "title": "Jev launches in early access", "detail": "System One and RLCD become public concepts."},
+    {"date": "17 Sep", "title": "NanoJev artifacts appear", "detail": "Small-model experimentation expands beyond API wrappers."},
+    {"date": "21 Sep", "title": "Framework integrations arrive", "detail": "Spring AI and related adapters lower the switching cost."},
+    {"date": "25 Sep", "title": "Ollaya breaks out", "detail": "A local runtime makes the wire shape portable."},
+    {"date": "28 Sep", "title": "Snapshot for this atlas", "detail": "The ecosystem is still measured in weeks, not years."}
+  ],
+  "recommendations": [
+    {"index": "01", "title": "Hosted trial", "body": "Use the official SDK plus the System One adapter. Gate on confidence and measure your own workload.", "tone": "coral"},
+    {"index": "02", "title": "Local trial", "body": "Use Ollaya to compare open decision models behind a familiar protocol. Treat it as emerging infrastructure.", "tone": "cyan"},
+    {"index": "03", "title": "Research", "body": "Use NanoJev, jevlike, or JEV-27B to study distinct open strategies rather than one supposed reproduction.", "tone": "amber"}
+  ]
+}

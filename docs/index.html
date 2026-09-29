@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#11151f">
+    <meta name="description" content="A field guide to the young Jev ecosystem: typed decisions, agent loops, local runtimes, and open research.">
+    <title>Awesome Jev Projects | Typed decision systems</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Awesome Jev home">
+        <span class="brand-mark" aria-hidden="true">A/J</span>
+        <span>Awesome Jev</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#map">Map</a>
+        <a href="#directory">Directory</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#read">Evidence</a>
+      </nav>
+      <a class="header-link" href="../jev_deep-research-report.md">Read report <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="hero band band-dark" aria-labelledby="hero-title">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" id="hero-eyebrow">THE JEWEL IN THE LOOP</p>
+            <h1 id="hero-title">State in.<br><em>Typed decisions</em> out.</h1>
+            <p class="hero-body" id="hero-body">Jev is trending because it turns high-frequency bounded choices into a typed probability surface. The ecosystem around that primitive is young, fast, and already splitting into applications, infrastructure, and open research.</p>
+            <div class="formula" role="group" aria-label="Decision loop">
+              <span>state</span><i aria-hidden="true">→</i><span>questions</span><i aria-hidden="true">→</i><span>probabilities</span><i aria-hidden="true">→</i><span>action</span>
+            </div>
+          </div>
+          <div class="hero-instrument" role="group" aria-label="Decision instrument">
+            <div class="instrument-topline"><span>DECISION INSTRUMENT</span><span>SNAPSHOT <b id="hero-snapshot">28 SEP 2026</b></span></div>
+            <div class="instrument-core">
+              <div class="instrument-orbit orbit-a"></div>
+              <div class="instrument-orbit orbit-b"></div>
+              <div class="instrument-center"><strong>JEV</strong><span>one forward pass</span></div>
+              <div class="instrument-point point-a"><b>01</b><span>finite<br>choices</span></div>
+              <div class="instrument-point point-b"><b>02</b><span>typed<br>outputs</span></div>
+              <div class="instrument-point point-c"><b>03</b><span>confidence<br>gate</span></div>
+            </div>
+            <div class="confidence-ribbon" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <p class="instrument-note">A useful primitive for decisions that are frequent, bounded, and worth measuring.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="metric-rail" aria-label="Ecosystem snapshot metrics" id="metrics"></section>
+
+      <section class="band band-paper" id="map" aria-labelledby="map-title">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow-dark">01 / THE SHAPE</p>
+          <h2 id="map-title">A new layer between state and action.</h2>
+          <p>Typed decisions compress the repetitive middle of an agent loop. The most useful projects keep facts, execution, and verification deterministic.</p>
+        </div>
+        <div class="architecture" role="group" aria-label="Jev ecosystem architecture">
+          <div class="architecture-row architecture-inputs">
+            <div class="architecture-node node-state"><span class="node-kicker">INPUT</span><strong>Application<br>state</strong><small>message · DOM · ticket · JSON</small></div>
+            <div class="architecture-arrow" aria-hidden="true">→</div>
+            <div class="architecture-node node-questions"><span class="node-kicker">SCHEMA</span><strong>Typed<br>questions</strong><small>choice · score · noul</small></div>
+          </div>
+          <div class="architecture-spine" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div class="architecture-row architecture-core">
+            <div class="architecture-node node-model"><span class="node-kicker">MODEL</span><strong>Jev / open<br>decision model</strong><small>one forward pass</small></div>
+            <div class="architecture-arrow" aria-hidden="true">→</div>
+            <div class="architecture-node node-prob"><span class="node-kicker">OUTPUT</span><strong>Probability<br>surface</strong><small>choice + confidence</small></div>
+          </div>
+          <div class="architecture-spine spine-short" aria-hidden="true"><span></span><span></span></div>
+          <div class="architecture-row architecture-output">
+            <div class="architecture-node node-gate"><span class="node-kicker">GATE</span><strong>Validated<br>threshold?</strong><small>yes · uncertain</small></div>
+            <div class="architecture-arrow" aria-hidden="true">→</div>
+            <div class="architecture-node node-action"><span class="node-kicker">SYSTEM</span><strong>Deterministic<br>action</strong><small>execute · verify · log</small></div>
+          </div>
+        </div>
+        <div class="layer-strip" role="group" aria-label="Ecosystem layers">
+          <div><span class="layer-index">A</span><strong>Applications</strong><small>browser agents · context tools · computer use</small></div>
+          <div><span class="layer-index">B</span><strong>Infrastructure</strong><small>SDKs · adapters · local runtimes</small></div>
+          <div><span class="layer-index">C</span><strong>Open research</strong><small>replicas · distillation · option scorers</small></div>
+        </div>
+      </section>
+
+      <section class="band band-ink" id="directory" aria-labelledby="directory-title">
+        <div class="section-heading heading-light">
+          <p class="eyebrow">02 / THE FIELD GUIDE</p>
+          <h2 id="directory-title">Projects worth putting on the bench.</h2>
+          <p>Filter by the job you need to do. Snapshot stars are attention signals, not readiness scores.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Project filters">
+          <div class="filter-group" id="role-filters" role="group" aria-label="Project role"></div>
+          <label class="select-label">Maturity
+            <select id="maturity-filter" aria-label="Filter by maturity"></select>
+          </label>
+          <label class="select-label">Access
+            <select id="access-filter" aria-label="Filter by access mode"></select>
+          </label>
+          <span class="filter-count" id="filter-count" aria-live="polite"></span>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+      </section>
+
+      <section class="band band-paper leaderboard-band" id="leaderboard" aria-labelledby="leaderboard-title">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow-dark">03 / MOMENTUM</p>
+          <h2 id="leaderboard-title">Attention is concentrated.</h2>
+          <p>Jev Ultrafast has more stars than the next several Jev-centric repositories combined. The shape says “viral demo,” not “mature stack.”</p>
+        </div>
+        <div class="leaderboard" id="leaderboard-list"></div>
+        <p class="data-note">GitHub star snapshot from the report · 28 Sep 2026 · HF model cards are shown separately.</p>
+      </section>
+
+      <section class="band band-blue timeline-band" id="timeline" aria-labelledby="timeline-title">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow-dark">04 / VELOCITY</p>
+          <h2 id="timeline-title">A two-week ecosystem.</h2>
+          <p>There is not twelve months of operating history yet. There are roughly two weeks of public artifacts, integrations, and experiments.</p>
+        </div>
+        <div class="timeline" id="timeline-list"></div>
+      </section>
+
+      <section class="band band-paper recommendations-band" aria-labelledby="recommendations-title">
+        <div class="section-heading">
+          <p class="eyebrow eyebrow-dark">05 / TRIAL GUIDE</p>
+          <h2 id="recommendations-title">Choose your first experiment.</h2>
+          <p>Keep the model inside a measured loop. Escalate uncertainty instead of hiding it.</p>
+        </div>
+        <div class="recommendation-grid" id="recommendation-list"></div>
+      </section>
+
+      <section class="band band-dark read-band" id="read" aria-labelledby="read-title">
+        <div class="read-grid">
+          <div>
+            <p class="eyebrow">06 / EVIDENCE</p>
+            <h2 id="read-title">Read the claims with their caveats.</h2>
+            <p class="read-body">The long-form report is the evidence base for this snapshot. It separates primary-source facts from community attention, labels author-reported benchmarks, and treats “open Jev” as a family of different projects rather than one thing.</p>
+          </div>
+          <div class="read-links">
+            <a class="read-link" href="../jev_deep-research-report.md"><span>Deep research report</span><b aria-hidden="true">↗</b></a>
+            <a class="read-link" href="../README.md"><span>Repository README</span><b aria-hidden="true">↗</b></a>
+            <a class="read-link" href="../assets/jev-poster-slides.png"><span>Poster slides PNG</span><b aria-hidden="true">↗</b></a>
+            <a class="read-link" href="../assets/jev-infographic-table.png"><span>Infographic table PNG</span><b aria-hidden="true">↗</b></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>AWESOME JEV / FIELD GUIDE</span>
+      <span>Snapshot 28 Sep 2026</span>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
